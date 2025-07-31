@@ -1,0 +1,5 @@
+base = 10
+altura = 5
+area = (f'A area do trangulo é {base * altura}.')
+
+print(area)
