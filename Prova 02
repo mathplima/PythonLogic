@@ -1,0 +1,7 @@
+n1 = float(input("Verifique aqui se seu numero é positivo ou negativo: "))
+if n1 > 0:
+    print(f"Seu numero é positivo!")
+elif n1 == 0:
+    print(f"Numero é 0")
+else:
+    print(f"Seu numero é negativo!")
