@@ -1,0 +1,14 @@
+numero_correto = 5
+chances_totais = 3
+jogador_chances = 0
+
+while jogador_chances < chances_totais:
+    numero = int(input("Digite um numero de 0 a 10: "))
+    jogador_chances += 1
+    if numero == numero_correto:
+        print("ACERTOU! Parabéns, você acertou o numero correto!")
+        break
+    else:
+        print("ERROU! Numero incorreto")
+else:
+    print("Acabaram suas chances! O número correto era", numero_correto)
